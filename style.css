@@ -10,7 +10,7 @@ body{
 }
 
 #upperheader{
-    margin-top: 6rem;
+    top: 0;
     display: flex;
     position: fixed;
     background-color: #FF6666;
