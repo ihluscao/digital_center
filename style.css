@@ -22,7 +22,7 @@ body{
 #upperheader .logo img{
     position: relative;
     margin: 0.5em;
-    width: 10%;
+    width: 15%;
 }
 
 #upperheader .container span{
@@ -37,12 +37,13 @@ body{
 
 #upperheader .searchbox #caixa input#campopesquisa{
     margin-top: 1.5rem;
-    margin-left: -25rem;
+    margin-left: -10rem;
     border-radius: 1rem;
     position: relative;
     width: 50rem;
     height: 3rem;
     text-align: center;
+    border: none;
 }
  
 #upperheader .searchbox #caixa a ion-icon{
@@ -50,8 +51,33 @@ body{
     margin-left: 1rem;
     margin-top: 1.9rem;
     font-size: 2rem;
+    color: #FFFFFF;
 }
 
 #upperheader .searchbox #caixa a ion-icon:hover{
-    color: #009999;
+    color: #00ffff;
+}
+
+#upperheader .rsb ul.ulrsb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#upperheader .rsb ul.ulrsb a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#upperheader .rsb ul.ulrsb a ion-icon{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#upperheader .rsb ul.ulrsb a:hover{
+    color: #00ffff;
 }

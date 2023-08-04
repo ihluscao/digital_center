@@ -14,16 +14,18 @@
             <span class="cabecalho">Digital Center</span>
         </div>
         <div class="logo">
-            <img src="img/sub.png">
+            <img src="img/logo.png">
         </div>
         <div class="searchbox">
             <form id="caixa" action="pesquisa.php" method="POST">
                 <input id="campopesquisa" type="text" name="search" placeholder="Digite Aqui o que deseja buscar">
-                <a href=""><ion-icon name="search-outline"></ion-icon></a>
+                <a href="pesquisa.php"><ion-icon name="search-outline"></ion-icon></a>
             </form>
         </div>
         <div class="rsb">
-            <ul class="rsb"></ul>
+            <ul class="ulrsb">
+                <li><a href="login.php"><ion-icon name="person-circle-outline"></ion-icon>LOGIN</a></li>
+            </ul>
         </div>
     </nav>
 
