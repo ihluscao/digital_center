@@ -12,23 +12,23 @@
     <div class="container">
         <a class="links" id="paracadastro"></a>
         <a class="links" id="paralogin"></a>
-
+        
         <div class="content">
             <!--FORMULÁRIO DE LOGIN-->
             <div id="login">
-                <img src="img/logo.png" alt="" id="churumelas"> 
+                <a href="home.php"><img src="img/logo.png" alt="" id="churumelas"></a> 
                 <form method="post" action="">
                     <h1>Login</h1>
                     <p>
                         <label for="email_login">Seu e-mail</label>
                         <input id="email_login" name="email_login" required="required" type="text"
-                            placeholder="contato@htmlecsspro.com" />
+                        placeholder="contato@htmlecsspro.com" />
                     </p>
 
                     <p>
                         <label for="senha_login">Sua senha</label>
                         <input id="senha_login" name="senha_login" required="required" type="password"
-                            placeholder="1234" />
+                        placeholder="1234" />
                     </p>
 
                     <p>
@@ -50,14 +50,15 @@
             <!--FORMULÁRIO DE CADASTRO-->
             <div id="cadastro">
                 <form method="post" action="">
+                    <a href="home.php"><img src="img/logo.png" alt="" id="churumelas"></a> 
                     <h1>Cadastro</h1>
 
                     <p>
                         <label for="nome_cad">Seu nome</label>
                         <input id="nome_cad" name="nome_cad" required="required" type="text"
-                            placeholder="Luiz Augusto" />
+                        placeholder="Luiz Augusto" />
                     </p>
-
+                    
                     <p>
                         <label for="email_cad">Seu e-mail</label>
                         <input id="email_cad" name="email_cad" required="required" type="email"
